@@ -20,5 +20,5 @@ NSGENBIND_VERSION="ecdd70336d64b21f57313c9c9e55e5f00f48f576"
 LIBNSFB_REPOSITORY="https://github.com/alex0809/libnsfb-reMarkable"
 LIBNSFB_VERSION="af3e4739afadd518aaa3098b049cebd9d35e263b"
 
-NETSURF_REPOSITORY="https://github.com/alex0809/netsurf-base-reMarkable"
-NETSURF_VERSION="6ebe54a0d8b68f1fbac63c50e4ec3f0534989d4f"
+NETSURF_REPOSITORY="https://github.com/Akselmo/netsurf-base-reMarkable.git"
+NETSURF_VERSION="570e20a02aeb9cd9a89ecad7abc8afa121a6caa6"
