@@ -24,8 +24,7 @@ echo "opensslh"
 export DEBIAN_FRONTEND=noninteractive \
     && mkdir openssl \
     && cd openssl \
-    && curl -L https://www.openssl.org/source/openssl-1.1.1k.tar.gz -o openssl.tar.gz \
-    && echo "892a0875b9872acd04a9fde79b1f943075d5ea162415de3047c327df33fbaee5  openssl.tar.gz" > sha256sums \
+    && curl -L https://www.openssl.org/source/openssl-1.1.1g.tar.gz -o openssl.tar.gz \
     && tar --strip-components=1 -xf openssl.tar.gz \
     && rm openssl.tar.gz sha256sums \
     && ./Configure no-shared no-comp --prefix=$SYSROOT/usr --openssldir=$SYSROOT/usr --cross-compile-prefix=$CHOST- linux-armv4 \
